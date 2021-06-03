@@ -1,0 +1,47 @@
+/* reset margin and padding
+some browsers have preset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex; 
+  /* horizontal layout */
+  justify-content: center;
+  /* vertical layout */
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h2 {
+	font-size: 50px;
+	margin-top: 30px;
+	/* reset the bottom margin */
+	margin-bottom: 0px;
+}
+
+h4 {
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+img {
+  margin-top: 30px;
+  height: 300px;
+  margin-bottom: 20px;
+}
